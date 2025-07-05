@@ -1,0 +1,138 @@
+/* ===== Global Styles ===== */
+body {
+  background-color: gold;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Navigation Bar ===== */
+.navbar {
+  background-color: darkblue;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  color: pink;
+}
+
+/* ===== Headings ===== */
+h2, h3 {
+  color: grey;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  color: red;
+  font-size: 20px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* ===== Profile Picture ===== */
+.profile-pic {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-pic img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 0 10px gray;
+}
+
+/* ===== Card Styles (About, Skills, Contact, Form) ===== */
+.about-card,
+.skills-card,
+.contact-card,
+.form-card {
+  background-color: white;
+  color: black;
+  max-width: 400px;
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* ===== Skills List ===== */
+.skills-card ul {
+  text-align: left;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.skills-card li {
+  margin-bottom: 10px;
+}
+
+/* ===== Contact Form ===== */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: navy;
+}
+
+/* ===== Result Messages in JavaScript Game ===== */
+.success {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.normal {
+  color: black;
+  font-weight: normal;
+  text-align: center;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 0;
+  color: white;
+  background-color: darkblue;
+  margin-top: 30px;
+}
+
